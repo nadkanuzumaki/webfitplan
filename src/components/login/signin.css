@@ -1,0 +1,82 @@
+.signin {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signin-title {
+    text-align: right;
+    width: 74%;
+    margin: 20px 0 0;
+}
+
+.signin-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signin-img {
+    width: 500px;
+    align-items: left;
+}
+
+.signin-column {
+    align-items: center;
+    max-width: 500px;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.signin-column-text {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.sign-brand-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.sign-brand-logo img {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 5px 50px;
+}
+
+.sign-brand-logo img:hover {
+    border-color: #8766FF;
+}
+
+.underline {
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.form-submit button {
+    height: 40px;
+    width: 100%;
+    margin: 7px 0;
+    border-radius: 10px;
+    background-color: #8766FF;
+    border-color: white;
+}
+
+.form-item-log input[type="text"],
+.form-item-log input[type="email"],
+.form-item-log input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
